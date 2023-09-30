@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(rgb(11, 11, 105), rgb(2, 2, 58)) no-repeat;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  background: white;
+  padding: 20px 40px;
+  border-radius: 10px;
+}
+
+.container h1 {
+  text-align: center;
+  font-weight: lighter;
+  margin-bottom: 20px;
+}
+
+.resultado {
+  margin-bottom: 20px;
+}
+
+.pesquisa label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.pesquisa input {
+  height: 30px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 2px solid rgb(39, 12, 114);
+}
+
+.pesquisa button {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  background: none;
+  border: 2px solid rgb(39, 12, 114);
+  border-radius: 5px;
+}
+
+.pesquisa i {
+  font-size: 16px;
+  color: rgb(39, 12, 114);
+}
+
+.resultado p {
+  color: rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.resultado span {
+  color: black;
+  font-size: 1rem;
+  text-transform: initial;
+}
